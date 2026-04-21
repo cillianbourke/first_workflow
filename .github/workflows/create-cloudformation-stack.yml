@@ -22,6 +22,7 @@ jobs:
         uses: aws-actions/aws-cloudformation-github-deploy@v1
         with:
           name: udatest
-          template: lesson-4-demos/udatest.yml
+          template: lesson-4-demos/action_environments/udatest.yml
+
 
           no-fail-on-empty-changeset: "1"
