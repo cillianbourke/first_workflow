@@ -21,7 +21,8 @@ jobs:
       - name: Create CloudFormation Stack
         uses: aws-actions/aws-cloudformation-github-deploy@v1
         with:
-          name: udatest
+          name: udatest-cillian-1
+
           template: lesson-4-demos/action_environments/udatest.yml
 
 
